@@ -3,6 +3,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
 import Categories from "./components/categories";
+import ProductImg1 from "./assets/chair-gray.jpg";
+import ProductImg2 from "./assets/chair-white.jpg";
+import ProductImg3 from "./assets/sofa.jpg";
+import ProductImg4 from "./assets/table.jpg";
+import ProductImg5 from "./assets/wall-light.jpg";
 
 class App extends React.Component {
   constructor(props) {
@@ -14,7 +19,7 @@ class App extends React.Component {
         {
           id: 1,
           title: "Стул серый",
-          img: "chair-gray.jpg",
+          img: ProductImg1,
           desc: "Lorem ispum dolor sit amet, consectetur adipisicing",
           category: "chairs",
           price: "49.99",
@@ -22,7 +27,7 @@ class App extends React.Component {
         {
           id: 2,
           title: "Стол",
-          img: "table.jpg",
+          img: ProductImg4,
           desc: "Lorem ispum dolor sit amet, consectetur adipisicing",
           category: "tables",
           price: "149.00",
@@ -30,7 +35,7 @@ class App extends React.Component {
         {
           id: 3,
           title: "Диван",
-          img: "sofa.jpg",
+          img: ProductImg3,
           desc: "Lorem ispum dolor sit amet, consectetur adipisicing",
           category: "sofa",
           price: "549.00",
@@ -38,7 +43,7 @@ class App extends React.Component {
         {
           id: 4,
           title: "Лампа",
-          img: "wall-light.jpg",
+          img: ProductImg5,
           desc: "Lorem ispum dolor sit amet, consectetur adipisicing",
           category: "light",
           price: "25.00",
@@ -46,7 +51,7 @@ class App extends React.Component {
         {
           id: 5,
           title: "Стул белый",
-          img: "chair-white.jpg",
+          img: ProductImg2,
           desc: "Lorem ispum dolor sit amet, consectetur adipisicing",
           category: "chairs",
           price: "60.00",

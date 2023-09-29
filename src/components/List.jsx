@@ -4,7 +4,7 @@ export class List extends Component {
   render() {
     return (
       <div className="item">
-        <img src={"./public/" + this.props.item.img} alt="" />
+        <img src={this.props.item.img} alt="" />
         <h2>{this.props.item.title}</h2>
         <p>{this.props.item.desc}</p>
         <b>{this.props.item.price}$</b>
